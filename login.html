@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="HalamanLogin">
+        <meta name="author" content="Thenardhi Syechlo">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- CSS Only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="simpan.js"></script>
+    </head>
+    <body>
+        <form action="home.html" method="post">
+            <div class="form-box">
+                <h1>Aplikasi Pendataan Kondisi Lahan Smart Farming</h1>
+                <div class="input-box">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="email" placeholder="Please input your email" required>
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-key"></i>
+                    <input type="password" placeholder="Please input your password" required>
+                    <span class="eye" onClick="myFunction()">
+                        <i id="hide1" class="fa fa-eye"></i>
+                        <i id="hide2" class="fa fa-eye-slash"></i>
+                    </span>
+                </div>
+                <div class="input-box">
+                    Don't have account yet? <a href="register.html">Register Now</a>
+                </div>
+                <div class="input-box">
+                    <a href="forgotPassword.html">Forgot Password? </a>
+                </div>
+                <button type="submit" class="login-btn">LOGIN</button>
+            </div>
+        </form>
+    </body>
+</html>
